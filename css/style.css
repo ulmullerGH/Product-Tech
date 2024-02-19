@@ -365,18 +365,19 @@ img{
     .newsletter{
         background-position: center, -21rem -2rem;
         background-repeat: no-repeat;
-        background-size: 100%, 100rem;
+        background-size: 100%, 120rem;
         padding: 10rem 0;
+        
     }
 
     .notavif.notwebp .newsletter{
         background-image: linear-gradient(to right, transparent 50%, var(--blanco) 0%), url(../img/newsletter.jpg);
     }
     .webp .newsletter{
-        background-image: linear-gradient(to bottom, transparent 50%, var(--blanco) 0%), url(../img/newsletter.webp);
+        background-image: linear-gradient(to right, transparent 50%, var(--blanco) 0%), url(../img/newsletter.webp);
     }
     .avif .newsletter{
-        background-image: linear-gradient(to bottom, transparent 50%, var(--blanco) 0%), url(../img/newsletter.avif);
+        background-image: linear-gradient(to right, transparent 50%, var(--blanco) 0%), url(../img/newsletter.avif);
     }
 }
 @media (min-width: 1600px) { 
@@ -386,7 +387,7 @@ img{
 }
 .contenido-newsl{
     display: grid;
-    grid-template-rows: repeat(2, 30rem);
+    grid-template-rows: repeat(2, 40rem);
     gap: var(--separacion);
 }
 
